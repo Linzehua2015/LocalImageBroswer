@@ -1,18 +1,18 @@
 //
-//  LocalBroswerDemoTests.m
-//  LocalBroswerDemoTests
+//  DesTestTests.m
+//  DesTestTests
 //
-//  Created by 林泽华 on 6/27/16.
-//  Copyright © 2016 林泽华. All rights reserved.
+//  Created by LinZehua on 13/11/15.
+//  Copyright © 2015 LinZehua. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface LocalBroswerDemoTests : XCTestCase
+@interface BroswerTests : XCTestCase
 
 @end
 
-@implementation LocalBroswerDemoTests
+@implementation BroswerTests
 
 - (void)setUp {
     [super setUp];

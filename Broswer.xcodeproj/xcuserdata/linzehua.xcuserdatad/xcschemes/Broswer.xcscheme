@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0710"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F9A076981D20B6B200EAE126"
-               BuildableName = "LocalBroswerDemo.app"
-               BlueprintName = "LocalBroswerDemo"
-               ReferencedContainer = "container:LocalBroswerDemo.xcodeproj">
+               BlueprintIdentifier = "F9E0323F1BF592EC00A9A46D"
+               BuildableName = "Broswer.app"
+               BlueprintName = "Broswer"
+               ReferencedContainer = "container:Broswer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F9A076B11D20B6B200EAE126"
-               BuildableName = "LocalBroswerDemoTests.xctest"
-               BlueprintName = "LocalBroswerDemoTests"
-               ReferencedContainer = "container:LocalBroswerDemo.xcodeproj">
+               BlueprintIdentifier = "F9E032581BF592EC00A9A46D"
+               BuildableName = "Broswer.xctest"
+               BlueprintName = "BroswerTests"
+               ReferencedContainer = "container:Broswer.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F9A076BC1D20B6B200EAE126"
-               BuildableName = "LocalBroswerDemoUITests.xctest"
-               BlueprintName = "LocalBroswerDemoUITests"
-               ReferencedContainer = "container:LocalBroswerDemo.xcodeproj">
+               BlueprintIdentifier = "F9E032631BF592EC00A9A46D"
+               BuildableName = "Broswer.xctest"
+               BlueprintName = "BroswerUITests"
+               ReferencedContainer = "container:Broswer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F9A076981D20B6B200EAE126"
-            BuildableName = "LocalBroswerDemo.app"
-            BlueprintName = "LocalBroswerDemo"
-            ReferencedContainer = "container:LocalBroswerDemo.xcodeproj">
+            BlueprintIdentifier = "F9E0323F1BF592EC00A9A46D"
+            BuildableName = "Broswer.app"
+            BlueprintName = "Broswer"
+            ReferencedContainer = "container:Broswer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F9A076981D20B6B200EAE126"
-            BuildableName = "LocalBroswerDemo.app"
-            BlueprintName = "LocalBroswerDemo"
-            ReferencedContainer = "container:LocalBroswerDemo.xcodeproj">
+            BlueprintIdentifier = "F9E0323F1BF592EC00A9A46D"
+            BuildableName = "Broswer.app"
+            BlueprintName = "Broswer"
+            ReferencedContainer = "container:Broswer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F9A076981D20B6B200EAE126"
-            BuildableName = "LocalBroswerDemo.app"
-            BlueprintName = "LocalBroswerDemo"
-            ReferencedContainer = "container:LocalBroswerDemo.xcodeproj">
+            BlueprintIdentifier = "F9E0323F1BF592EC00A9A46D"
+            BuildableName = "Broswer.app"
+            BlueprintName = "Broswer"
+            ReferencedContainer = "container:Broswer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
