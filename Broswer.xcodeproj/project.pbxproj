@@ -16,10 +16,10 @@
 		F90A055C1BFD78AB0013AE8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90A054F1BFD78AB0013AE8B /* main.m */; };
 		F90A055D1BFD78AB0013AE8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90A05511BFD78AB0013AE8B /* ViewController.m */; };
 		F9E0325E1BF592EC00A9A46D /* BroswerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E0325D1BF592EC00A9A46D /* BroswerTests.m */; };
-		F9E546F11BFDB2DA00C59A59 /* BroswerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E546E91BFDB2DA00C59A59 /* BroswerVC.m */; };
-		F9E546F21BFDB2DA00C59A59 /* GroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E546EB1BFDB2DA00C59A59 /* GroupCell.m */; };
-		F9E546F31BFDB2DA00C59A59 /* GroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E546ED1BFDB2DA00C59A59 /* GroupVC.m */; };
-		F9E546F41BFDB2DA00C59A59 /* BroswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E546F01BFDB2DA00C59A59 /* BroswerCell.m */; };
+		F9E760461D2BAC1000DD16B1 /* BroswerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E7603C1D2BAC1000DD16B1 /* BroswerVC.m */; };
+		F9E760471D2BAC1000DD16B1 /* GroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E7603E1D2BAC1000DD16B1 /* GroupVC.m */; };
+		F9E760481D2BAC1000DD16B1 /* BroswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E760421D2BAC1000DD16B1 /* BroswerCell.m */; };
+		F9E760491D2BAC1000DD16B1 /* GroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E760451D2BAC1000DD16B1 /* GroupCell.m */; };
 		F9FAA59E1BF77559004D7C50 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FAA59D1BF77559004D7C50 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,14 +49,14 @@
 		F9E032591BF592EC00A9A46D /* Broswer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Broswer.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E0325D1BF592EC00A9A46D /* BroswerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BroswerTests.m; sourceTree = "<group>"; };
 		F9E0325F1BF592EC00A9A46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9E546E81BFDB2DA00C59A59 /* BroswerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroswerVC.h; sourceTree = "<group>"; };
-		F9E546E91BFDB2DA00C59A59 /* BroswerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroswerVC.m; sourceTree = "<group>"; };
-		F9E546EA1BFDB2DA00C59A59 /* GroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupCell.h; sourceTree = "<group>"; };
-		F9E546EB1BFDB2DA00C59A59 /* GroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupCell.m; sourceTree = "<group>"; };
-		F9E546EC1BFDB2DA00C59A59 /* GroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupVC.h; sourceTree = "<group>"; };
-		F9E546ED1BFDB2DA00C59A59 /* GroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupVC.m; sourceTree = "<group>"; };
-		F9E546EF1BFDB2DA00C59A59 /* BroswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroswerCell.h; sourceTree = "<group>"; };
-		F9E546F01BFDB2DA00C59A59 /* BroswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroswerCell.m; sourceTree = "<group>"; };
+		F9E7603B1D2BAC1000DD16B1 /* BroswerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroswerVC.h; sourceTree = "<group>"; };
+		F9E7603C1D2BAC1000DD16B1 /* BroswerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroswerVC.m; sourceTree = "<group>"; };
+		F9E7603D1D2BAC1000DD16B1 /* GroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupVC.h; sourceTree = "<group>"; };
+		F9E7603E1D2BAC1000DD16B1 /* GroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupVC.m; sourceTree = "<group>"; };
+		F9E760411D2BAC1000DD16B1 /* BroswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroswerCell.h; sourceTree = "<group>"; };
+		F9E760421D2BAC1000DD16B1 /* BroswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroswerCell.m; sourceTree = "<group>"; };
+		F9E760441D2BAC1000DD16B1 /* GroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupCell.h; sourceTree = "<group>"; };
+		F9E760451D2BAC1000DD16B1 /* GroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupCell.m; sourceTree = "<group>"; };
 		F9FAA59D1BF77559004D7C50 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -82,13 +82,13 @@
 		F90A05381BFD78AB0013AE8B /* Broswer */ = {
 			isa = PBXGroup;
 			children = (
+				F9E546E61BFDB2DA00C59A59 /* Broswers */,
 				F90A05391BFD78AB0013AE8B /* ALAssetsLibraryExt */,
 				F90A053C1BFD78AB0013AE8B /* AppDelegate.h */,
 				F90A053D1BFD78AB0013AE8B /* AppDelegate.m */,
 				F90A053E1BFD78AB0013AE8B /* Assets.xcassets */,
 				F90A053F1BFD78AB0013AE8B /* LaunchScreen.storyboard */,
 				F90A05411BFD78AB0013AE8B /* Main.storyboard */,
-				F9E546E61BFDB2DA00C59A59 /* Broswers */,
 				F90A054E1BFD78AB0013AE8B /* Info.plist */,
 				F90A054F1BFD78AB0013AE8B /* main.m */,
 				F90A05501BFD78AB0013AE8B /* ViewController.h */,
@@ -137,32 +137,48 @@
 		F9E546E61BFDB2DA00C59A59 /* Broswers */ = {
 			isa = PBXGroup;
 			children = (
-				F9E546E71BFDB2DA00C59A59 /* Controller */,
-				F9E546EA1BFDB2DA00C59A59 /* GroupCell.h */,
-				F9E546EB1BFDB2DA00C59A59 /* GroupCell.m */,
-				F9E546EC1BFDB2DA00C59A59 /* GroupVC.h */,
-				F9E546ED1BFDB2DA00C59A59 /* GroupVC.m */,
-				F9E546EE1BFDB2DA00C59A59 /* View */,
+				F9E7603A1D2BAC1000DD16B1 /* Controller */,
+				F9E7603F1D2BAC1000DD16B1 /* View */,
 			);
 			path = Broswers;
 			sourceTree = "<group>";
 		};
-		F9E546E71BFDB2DA00C59A59 /* Controller */ = {
+		F9E7603A1D2BAC1000DD16B1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F9E546E81BFDB2DA00C59A59 /* BroswerVC.h */,
-				F9E546E91BFDB2DA00C59A59 /* BroswerVC.m */,
+				F9E7603B1D2BAC1000DD16B1 /* BroswerVC.h */,
+				F9E7603C1D2BAC1000DD16B1 /* BroswerVC.m */,
+				F9E7603D1D2BAC1000DD16B1 /* GroupVC.h */,
+				F9E7603E1D2BAC1000DD16B1 /* GroupVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		F9E546EE1BFDB2DA00C59A59 /* View */ = {
+		F9E7603F1D2BAC1000DD16B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F9E546EF1BFDB2DA00C59A59 /* BroswerCell.h */,
-				F9E546F01BFDB2DA00C59A59 /* BroswerCell.m */,
+				F9E760401D2BAC1000DD16B1 /* Broswer */,
+				F9E760431D2BAC1000DD16B1 /* Group */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F9E760401D2BAC1000DD16B1 /* Broswer */ = {
+			isa = PBXGroup;
+			children = (
+				F9E760411D2BAC1000DD16B1 /* BroswerCell.h */,
+				F9E760421D2BAC1000DD16B1 /* BroswerCell.m */,
+			);
+			path = Broswer;
+			sourceTree = "<group>";
+		};
+		F9E760431D2BAC1000DD16B1 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				F9E760441D2BAC1000DD16B1 /* GroupCell.h */,
+				F9E760451D2BAC1000DD16B1 /* GroupCell.m */,
+			);
+			path = Group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,11 +287,11 @@
 				F90A05531BFD78AB0013AE8B /* AppDelegate.m in Sources */,
 				F90A055D1BFD78AB0013AE8B /* ViewController.m in Sources */,
 				F90A05521BFD78AB0013AE8B /* ALAssetsLibraryExt.m in Sources */,
-				F9E546F31BFDB2DA00C59A59 /* GroupVC.m in Sources */,
-				F9E546F41BFDB2DA00C59A59 /* BroswerCell.m in Sources */,
-				F9E546F21BFDB2DA00C59A59 /* GroupCell.m in Sources */,
+				F9E760491D2BAC1000DD16B1 /* GroupCell.m in Sources */,
+				F9E760481D2BAC1000DD16B1 /* BroswerCell.m in Sources */,
 				F90A055C1BFD78AB0013AE8B /* main.m in Sources */,
-				F9E546F11BFDB2DA00C59A59 /* BroswerVC.m in Sources */,
+				F9E760471D2BAC1000DD16B1 /* GroupVC.m in Sources */,
+				F9E760461D2BAC1000DD16B1 /* BroswerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
