@@ -10,6 +10,7 @@
 #import "ALAssetsLibraryExt.h"
 #import <AssetsLibrary/AssetsLibrary.h>
 #import "GroupVC.h"
+#import <objc/Object.h>
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -23,6 +24,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    objc_msgSend(self, @selector(initData));
+    
+    [self initData];
+}
+
+- (void)initData {
     
     // initData
     _tableView.delegate = self;
@@ -47,7 +55,10 @@
         
     } failureBlock:^(NSError *error) {
         
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:NSLocalizedString(@"设置->隐私->照片 打开权限", nil) delegate:self cancelButtonTitle:NSLocalizedString(@"确定", nil) otherButtonTitles: nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@""
+                                                        message:NSLocalizedString(@"设置->隐私->照片 打开权限", nil) delegate:self
+                                              cancelButtonTitle:NSLocalizedString(@"确定", nil)
+                                              otherButtonTitles: nil];
         [alert show];
     }];
 }
